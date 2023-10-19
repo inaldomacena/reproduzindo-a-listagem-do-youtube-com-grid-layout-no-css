@@ -1,0 +1,174 @@
+
+body{
+    
+    width:100vw;
+    height:100vh;
+    font-size: 14px;
+
+    
+    
+    
+}
+
+header{
+    padding: 8px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    
+    
+}
+
+nav{
+    vertical-align:super;
+}
+
+.left{
+    margin-left: -139px;
+    width: 99px;
+    height: 24px;
+    top: 16px;
+    left: 24px;
+    
+}
+ .logo-youtube{
+    display: inline;
+    justify-content: center;
+
+    width: 99px;
+    height: 24px;
+    top: 16px;
+    left: 24px;
+    
+    margin-left: -5px;
+    margin-right: 9px;
+    padding: 0px;
+}
+
+ input  {
+    width: 348px;
+    height: 40px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    display: inline-flex;
+    margin-left: 200px;
+    
+ }
+ 
+ button {
+       width: 57px;
+        height: 40px;
+        color: #757474;
+        padding: 12px 1px;
+        border: 1px solid #cccccc;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+    
+.right{
+    width:  90px;
+    height: 50px;
+    margin-top: -55px;
+    margin-left: 1049px;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(8, 67, 156);
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 400;
+    background-color:#f1f1f1 ;
+    font-size: 13px;
+} 
+
+main{
+    
+   width: 1240px;
+   height: 1024px;
+   
+   
+   
+   
+}
+
+sidebar{
+    font-weight: 400;
+    
+    width: 228px;
+    height:601px ;
+    float: left;
+    margin-left:-120px;
+    margin-right: -80px;
+    
+ }
+
+
+.container {
+    
+    
+    
+    padding:2px;
+    gap:5px 5px;
+    display: grid;
+    grid-template-columns:repeat(4, 300px) ;
+    grid-template-rows: repeat(4, 1fr) ;
+    
+    
+    justify-items: center;
+    align-items: center;
+
+    
+}
+
+.item1{
+    
+}
+.item2{
+    
+}
+.item3{
+     
+}
+.item4{
+    
+}
+.item5{
+    
+ }
+ .item6{
+     
+ }
+ .item7{
+    
+ }
+ .item8{
+     
+ }
+
+
+
+ .thumbnail-video{
+    width:150px;
+    height:140px;
+ }
+
+
+ .thumbnail-infos{
+    width: 300px;
+    height: 130px;
+    text-align:center;
+    
+ }
+
+
+ .thumbnail-infos h2{
+    font-weight: 600;
+    font-size: 14px;
+    
+ }
+
+ .thumbnail-infos p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 6px;
+ }
